@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="invoice-container">
+        <div class="logo" style=" background-image: url(./nat.png);"></div>
+        <div class="invoice-header">
+            <h1>INVOICE FOR WEBSITE DEVELOPMENT SERVICES</h1>
+        </div>
+        <br>
+      
+     <div class="one">
+        <div class="client-info">
+       <h4>Bill To:</h4>
+        <div class="logo" style="margin: 0; margin-block: 10px;"></div>
+            <p>Catholic Archdiocese of Kumasi</p>
+       
+        </div>
+        <div class="invoice-details">
+            <p>Invoice Number: <span id="invoice-number">INV001</span></p>
+            <p>Date: <span id="invoice-date">May 10, 2024</span></p>
+        </div>
+     </div>
+        <div class="services-info">
+            <p><strong>Description of Services:</strong></p>
+            <ul>
+                <li>Website development for Catholic Archdiocese of Kumasi</li>
+                <ul>
+                    <li>Post blog and gallery functionality</li>
+                    <li>Dynamic backend for various sections:</li>
+                    
+                </ul>
+            </ul>
+        </div>
+        <div class="structural-breakdown">
+            <p><strong>Structural Breakdown:</strong></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Section</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Home</td>
+                        <td>Homepage of the website</td>
+                    </tr>
+                    <tr>
+                        <td>Archdiocese</td>
+                        <td>Information about the Archdiocese</td>
+                    </tr>
+                    <tr>
+                        <td>Mission</td>
+                        <td>Mission statement</td>
+                    </tr>
+                    <tr>
+                        <td>Department</td>
+                        <td>Details about various departments</td>
+                    </tr>
+                    <tr>
+                        <td>Education</td>
+                        <td>Educational programs and initiatives</td>
+                    </tr>
+                    <tr>
+                        <td>Media</td>
+                        <td>Media resources and materials</td>
+                    </tr>
+                    <tr>
+                        <td>Contact</td>
+                        <td>Contact information</td>
+                    </tr>
+                    <tr>
+                        <td>Religious Institution</td>
+                        <td>Information about religious institutions</td>
+                    </tr>
+                    <tr>
+                        <td>Blog</td>
+                        <td>Blog posts dynamically posted by the Catholic Archdiocese of Kumasi, not the developer.
+                            Includes a login page for operations.</td>
+                    </tr>
+                    <tr>
+                        <td>Gallery</td>
+                        <td>Photo gallery dynamically updated by the Catholic Archdiocese of Kumasi, not the developer.
+                            Includes a login page for operations.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="one">
+            <div class="total-amount">
+                <p>Total Amount Due: GHC <span id="total-amount"><h1>3,000.00</h1></span></p>
+            </div>
+            
+            <div class="payment-info">
+            
+                <p>Nathstack Tech</p>
+            
+                <p>Email: info@nathstack.tech</p>
+                <p>Phone: +233 541 987 478</p>
+            </div>
+        </div>
+        <div class="thank-you">Thank you for your business!</div>
+    </div>
+
+    <script src="anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

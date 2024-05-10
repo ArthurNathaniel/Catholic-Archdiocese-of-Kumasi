@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Onest", sans-serif;
+}
+
+body {
+    font-family: "Onest", sans-serif;
+    background-color: #f2f4f6;
+
+}
+/* .logo {
+    height: 100px;
+    width: 100px;
+  
+
+    background-image: url(./logo.png);
+        background-position: center;
+        background-size: cover;
+} */
+.invoice-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    padding: 0 10%;
+    padding-block: 50px;
+}
+
+.invoice-header {
+
+    font-weight: bold;
+    text-align: center;
+    margin-block: 20px;
+}
+
+.invoice-details,
+.client-info,
+.services-info,
+.structural-breakdown,
+.total-amount,
+.payment-terms,
+.payment-info,
+.thank-you {
+    margin-bottom: 20px;
+}
+
+.invoice-details p,
+.client-info p,
+.services-info p,
+.structural-breakdown p,
+.total-amount p,
+.payment-terms p,
+.payment-info p,
+.thank-you {
+    margin: 5px 0;
+}
+
+.client-info p:first-child,
+.services-info p:first-child,
+.structural-breakdown p:first-child,
+.payment-info p:first-child {
+    margin-top: 10px;
+}
+
+.invoice-details span,
+.total-amount span,
+.payment-terms span {
+    font-weight: bold;
+}
+
+.structural-breakdown table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.structural-breakdown th,
+.structural-breakdown td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.structural-breakdown th {
+    background-color: #f2f2f2;
+}
+
+.thank-you {
+    text-align: center;
+    font-style: italic;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+}
+
+th{
+background-color: #5daa80 !important;
+color: #fff;
+padding: 15px !important;
+text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6, span, strong{
+color: #5daa80;
+}
+  .logo {
+      height: 70px;
+      width: 70px;
+      background-image: url(./logo.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 auto;
+  }
+@media only screen and (max-width: 1110px) {
+   .one{
+    display: flex;
+    flex-direction: column;
+   }
+   h1{
+    font-size: 30px;
+   }
+}
